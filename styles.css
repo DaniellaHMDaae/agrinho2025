@@ -1,34 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+
+/* Variáveis */
+:root {
+    --primary-color: #026773;
+    --secondary-color: #3CA6A6;
+    --text-color: #024959;
+    --background-color: #F2E3D5;
+    --button-hover: #012E40;
+    --font-body: "Chocolate Classical Sans", serif;
+    --font-titulo: "Rakkas", serif;
+}
+
+/* código omitido */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+/* Corpo da página */
 body {
-    color:rgb(222, 236, 209);
-    background: rgb(128, 170, 112) ;
-    margin: 3px;
-    font-family: "Quicksand", sans-serif;
-    margin-bottom: 100px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
 }
 
-header {
-
-    border-bottom: solid 2px rgb(43, 83, 16);
-    padding: 20px;
-    font-size: 30px;
-    color: rgb(31, 25, 66);
+h3 {
+    margin-top: 25px;
 }
 
-.detalhes {
-    background-color: rgb(216, 218, 122);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display:flex;
-    justify-content: center;
-}
-.detalhes-texto{
-    margin-right: 5%;
+p {
+    margin-top: 20px;
 }
 
-h1 {
-    font-size: 40px;
+img {
+    max-width: 90%;
 }
 
-p{
-    font-size: 20px;
-}
+/* código omitido */
