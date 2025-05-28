@@ -5,6 +5,15 @@ body {
     font-family: "Quicksand", sans-serif;
     margin-bottom: 100px;
 }
+
+header {
+
+    border-bottom: solid 2px rgb(62, 38, 68);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(31, 25, 66);
+}
+
 .detalhes {
     background-color: rgb(191, 169, 212);
     padding-bottom: 80px;
