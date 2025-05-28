@@ -1,3 +1,10 @@
 detalhes {
     
 }
+body {
+    color:aliceblue;
+    background: rgb(94, 94, 165) ;
+    margin: 0px;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 100px;
+}
