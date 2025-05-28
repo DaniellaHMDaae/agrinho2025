@@ -1,15 +1,14 @@
-.detalhes {
-    background-color: rgb(191, 169, 212);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display:flex;
-    justify-content: center;
-}
-
 body {
     color:aliceblue;
     background: rgb(94, 94, 165) ;
     margin: 0px;
     font-family: "Quicksand", sans-serif;
     margin-bottom: 100px;
+}
+.detalhes {
+    background-color: rgb(191, 169, 212);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display:flex;
+    justify-content: center;
 }
